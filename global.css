@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing:border-box;
+}
+#navContainer{
+    height:70px;
+    background-color:black;
+
+}
+.listContainer{
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.listContainer a{
+    color:white;
+    text-decoration:none;
+}
